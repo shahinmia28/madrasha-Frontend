@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.color-list {
+  color: #062a4d;
+  color: #d0df56;
+  color: #6ec1e4;
+  color: #50aab2;
+  color: #e5f3f4;
+  color: #ff9757ae;
+}
+
+.btn-my {
+  text-transform: uppercase;
+  padding: 15px;
+  background: #ff9757ae;
+  color: #393939;
+  border-radius: 0;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  transition: all 0.4s linear;
+}
+.btn-my:hover {
+  transform: scale(1.1);
+}
+
+.title {
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #062a4d;
+  border-bottom: 2px solid #062a4d;
+}
+
+.my-box {
+  box-shadow: 0 0 10px -3px #062a4d;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.form-control {
+  outline: none;
+  background: transparent;
+  border: 1px solid #666;
+}
+.btn {
+  text-transform: uppercase;
+  border-bottom: 1px solid #062a4d;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0839699d;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0839699d;
+  border-radius: 5px;
+}
